@@ -2,7 +2,6 @@ pipeline {
     agent {
         label 'master'
     }
-    ...
 }
     triggers {
         pollSCM '* * * * *'
